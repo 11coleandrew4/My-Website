@@ -116,7 +116,7 @@ a {
 
 .indicator {
   position: absolute;
-  left: 24px;
+  left: 20px;
   top: -50%;
   width: 70px;
   height: 70px;
@@ -155,7 +155,7 @@ a {
 }
 
 #navbarUl ul li:nth-child(2).active ~ .indicator {
-  transform: translateX(calc(70px * 1));
+  transform: translateX(calc(79px * 1));
 }
 
 #main-content {
@@ -163,6 +163,7 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-left: -25em;
 }
 
 #footer-text {
@@ -175,6 +176,7 @@ a {
   border-radius: 25px;
 }
 .pageTitle {
+  width: 30em;
   padding-left: 25rem;
 }
 
@@ -182,70 +184,6 @@ a {
   position: absolute;
   margin-left: 28rem;
   margin-top: -29.5rem;
-}
-
-#gottago-demo {
-  display: block;
-  width: 300px;
-  padding-top: 3em;
-  padding-bottom: 5em;
-  padding-right: 15em;
-  min-width: 34em;
-}
-
-#gotta-go-logo-container {
-  position: absolute;
-  margin-top: -41em;
-  margin-left: 32em;
-  width: 456px;
-}
-
-#gotta-go-logo {
-  position: absolute;
-  display: block;
-}
-
-#gotta-go-text {
-  margin-left: -16%;
-  padding-right: 20px;
-}
-
-#gotta-go-paragraph {
-  text-indent: 5%;
-  line-height: 150%;
-  font-size: 18px;
-  width: 29em;
-}
-
-#gottago-link {
-  color: cornflowerblue;
-}
-
-#nbf-container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 26em;
-  margin-top: 12em;
-  margin-bottom: 7em;
-  height: fit-content;
-  width: fit-content;
-}
-
-#test {
-  margin-left: 21%;
-}
-
-#nbf-text {
-  margin-right: -9em;
-  text-indent: 5%;
-  line-height: 150%;
-  margin-left: -9em;
-  font-size: 18px;
-}
-
-#nbf-demo {
-  width: 734px;
-  height: 388px;
 }
 
 /* SOCIAL LINKS */
@@ -334,8 +272,6 @@ a {
   border-radius: 50%;
 }
 
-/* RESUME STYLING */
-
 #resume-link {
   position: absolute;
   margin-left: 28rem;
@@ -381,8 +317,6 @@ a {
 
   border-radius: 50%;
 }
-
-/* LINKEDIN STYLING */
 
 #linkedin-link {
   position: absolute;
@@ -430,16 +364,10 @@ a {
   border-radius: 50%;
 }
 
-/*PAGE TITLE SPACING*/
 .pageTitle {
 }
 
 #email-text {
-  /* position: absolute;
-  right: 11em;
-  top: 22em;
-  rotate: 270deg;
-  width: 20em; */
   position: absolute;
   right: 8.8em;
   height: 4em;
@@ -452,122 +380,139 @@ a {
   font-size: 17px;
 }
 
-#swoopdeck-demo {
-  display: block;
+#projects {
+  justify-items: center;
+  margin-left: 5%;
+}
+
+#projects-page {
+  margin-left: 21%;
+}
+
+#gotta-go-container {
+  display: inline-flex;
+}
+
+#gotta-go-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+#gotta-go-title h1 {
+  margin-right: 1.5em;
+}
+
+#gottago-demo {
+  /* display: block; */
   width: 300px;
-  min-width: 55em;
   padding-top: 3em;
-  padding-left: 8em;
   padding-bottom: 5em;
+
+  min-width: 17em;
 }
 
-#swoopdeck-logo {
-  position: absolute;
-  display: block;
-  top: -20em;
+#gotta-go-logo-container {
+  display: flex;
+  flex-direction: column;
+
+  width: fit-content;
+  align-items: center;
+  margin-top: 7em;
+  margin-left: -11em;
 }
 
-#swoopdeck-paragraph {
-  text-indent: 5%;
-  line-height: 150%;
-  font-size: 18px;
-  width: 71em;
-  padding-left: 10%;
-  margin-top: -30px;
+#gotta-go-logo {
+  min-width: 15em;
+  min-height: 7em;
 }
 
-#swoopdeck-logo-container {
-  /* margin-top: 6em;
-  margin-left: -6em;
-  width: 100%; */
-  min-width: 21em;
-  margin-top: 6em;
-  margin-left: 7em;
-  /* margin-left: 50em;
-  top: 69em;
-  position: absolute; */
+#gotta-go-text {
+  margin-left: 14em;
+  margin-right: 12em;
 }
 
-#swoopdeck-text {
-  margin-left: -16%;
-  padding-right: 20px;
+#swoopdeck-demo {
+  width: 789px;
+  padding-top: 6em;
+  padding-bottom: 1em;
+  min-width: 38em;
+}
+
+#swoopdeck-outer-container {
+  margin-left: -22em;
+}
+
+#swoopdeck-title {
+  text-align: center;
+  margin-left: 4em;
+  margin-bottom: -7em;
+  margin-top: 10em;
 }
 
 #swoopdeck-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
 
+#swoopdeck-logo-container {
+  display: flex;
   flex-direction: row;
-
-  align-content: center;
-  margin-top: 6em;
+  width: 45em;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: -10em;
 }
 
-#navbar-container {
-  width: 60%;
-  margin-left: 19.7%;
+#swoopdeck-text {
+  padding-bottom: 5em;
+  text-align: justify;
+  width: 70em;
+  margin-top: -3em;
 }
 
-@media screen and (max-width: 1276px) {
-  #swoopdeck-container {
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top: 2em;
-  }
-  #swoopdeck-logo-container {
-    min-width: 21em;
-    margin-left: 28em;
-  }
-  #swoopdeck-demo {
-    display: block;
-    width: 300px;
-    min-width: 65em;
-    padding-top: 3em;
-    padding-left: 8em;
-    padding-bottom: 5em;
-  }
-  #swoopdeck-paragraph {
-    text-indent: 5%;
-    line-height: 150%;
-    font-size: 18px;
-    width: 58em;
-    padding-left: 16%;
-    margin-top: -30px;
-  }
+#swoopdeck-logo {
+  width: 80%;
+  margin-top: -6em;
+  margin-left: -5em;
 }
 
 @media screen and (max-width: 1100px) {
-  #swoopdeck-container {
-    flex-direction: column-reverse;
-    justify-content: center;
-    margin-top: 2em;
+  #projects-page {
+    margin-left: 0px;
   }
-  #swoopdeck-logo-container {
-    min-width: 21em;
-    margin-left: 23em;
+
+  #gotta-go-title h1 {
+    margin-right: 1.5em;
   }
-  #swoopdeck-demo {
-    display: block;
-    width: 300px;
-    min-width: 55em;
-    padding-top: 3em;
-    padding-left: 8em;
-    padding-bottom: 5em;
+
+  #gotta-go-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -3em;
   }
-  #swoopdeck-paragraph {
-    text-indent: 5%;
-    line-height: 150%;
-    font-size: 18px;
-    width: 51em;
-    padding-left: 18%;
-    margin-top: -30px;
+  #swoopdeck-outer-container {
+    margin-left: -7em;
+  }
+
+  #gotta-go-text {
+    margin-left: 5em;
+    margin-right: 4em;
+    margin-top: -3em;
+  }
+
+  #gotta-go-logo-container {
+    margin-top: -4em;
+    margin-left: 0em;
   }
 }
 
-@media screen and (max-width: 1137px) {
-  #gotta-go-logo-container {
-    position: absolute;
-    margin-top: -39em;
-    margin-left: 26em;
-    width: 456px;
-  }
+#gottago-link {
+  color: cornflowerblue;
 }
