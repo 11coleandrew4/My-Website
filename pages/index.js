@@ -46,7 +46,7 @@ export default class index extends Component {
           projectView={this.state.projectView}
           clickHandler={this.clickHandler}
         />
-        <main className={styles.main}>
+        <main id="all-home" className={styles.main}>
           <div>{this.state.projectView ? <Projects /> : <MainPage />}</div>
         </main>
 

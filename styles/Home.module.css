@@ -4,12 +4,19 @@
 }
 
 .main {
-  min-height: 80vh;
+  /* min-height: 80vh;
   padding: 1rem 0;
   padding-top: 0em;
   margin-right: 25rem;
   flex: 1;
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  min-height: 80vh;
+  padding: 1rem 0;
+  padding-top: 0em;
+  flex: 1 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
