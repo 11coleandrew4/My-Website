@@ -5,8 +5,8 @@ function SwoopDeckLogo() {
     <Image
       src="/SwoopLogo.png"
       alt="me"
-      height="300"
-      width="300"
+      height="200"
+      width="200"
       id="swoopdeck-logo"
     />
   );
