@@ -47,7 +47,9 @@ export default class index extends Component {
           clickHandler={this.clickHandler}
         />
         <main id="all-home" className={styles.main}>
-          <div>{this.state.projectView ? <Projects /> : <MainPage />}</div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            {this.state.projectView ? <Projects /> : <MainPage />}
+          </div>
         </main>
 
         <footer className={styles.footer}>

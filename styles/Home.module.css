@@ -1,6 +1,11 @@
 .container {
-  padding: 0 2rem;
-  margin-top: 1px;
+  /* padding: 0 2rem;
+  margin-top: 1px; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 .main {

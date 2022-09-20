@@ -364,9 +364,6 @@ a {
   border-radius: 50%;
 }
 
-.pageTitle {
-}
-
 #email-text {
   position: absolute;
   right: 8.8em;
@@ -385,12 +382,14 @@ a {
   margin-left: 5%;
 }
 
-#projects-page {
-  margin-left: 21%;
-}
-
 #gotta-go-container {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+  padding-inline: 3rem;
 }
 
 #gotta-go-title {
@@ -401,26 +400,22 @@ a {
 }
 
 #gotta-go-title h1 {
-  margin-right: 1.5em;
+  grid-column: 2 / span 1;
 }
 
 #gottago-demo {
-  /* display: block; */
-  width: 300px;
+  width: 325px;
   padding-top: 3em;
   padding-bottom: 5em;
-
+  padding-right: 0;
   min-width: 17em;
 }
 
 #gotta-go-logo-container {
   display: flex;
   flex-direction: column;
-
   width: fit-content;
   align-items: center;
-  margin-top: 7em;
-  margin-left: -11em;
 }
 
 #gotta-go-logo {
@@ -429,59 +424,52 @@ a {
 }
 
 #gotta-go-text {
-  margin-left: 14em;
-  margin-right: 12em;
   text-indent: 1em;
+  padding-inline: 2rem;
 }
 
 #swoopdeck-demo {
-  width: 912px;
-  padding-top: 6em;
-  padding-bottom: 1em;
-  min-width: 38em;
-}
-
-#swoopdeck-outer-container {
-  margin-left: -22em;
+  width: 100%;
+  padding-inline: 2rem;
+  padding-top: -2rem;
+  padding-bottom: -2rem;
 }
 
 #swoopdeck-title {
   text-align: center;
-  margin-left: 4em;
-  margin-bottom: -7em;
-  margin-top: 10em;
+  padding-inline: 3rem;
 }
 
 #swoopdeck-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
   align-items: center;
-  margin-left: 4em;
-  margin-top: 5em;
-  margin-bottom: 5em;
+}
+
+#swoopdeck-logo-wrapper {
+  height: auto;
+  width: auto;
+  justify-content: center;
+  display: flex;
 }
 
 #swoopdeck-logo-container {
   display: flex;
   flex-direction: row;
-  width: 56em;
   align-items: center;
-  margin-top: 5em;
-  margin-bottom: -10em;
+  padding-inline: 2rem;
+  text-align: left;
 }
 
 #swoopdeck-text {
-  padding-bottom: 5em;
   text-align: justify;
-  width: 150em;
-  margin-top: -3em;
+  padding-inline: 5rem;
   text-indent: 1em;
 }
 
 #swoopdeck-logo {
-  width: 80%;
-  margin-top: -3em;
-  margin-left: -1em;
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1100px) {
@@ -489,24 +477,10 @@ a {
     margin-left: 0px;
   }
 
-  #gotta-go-title h1 {
-    margin-right: 1.5em;
-  }
-
   #gotta-go-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -3em;
-  }
-  #swoopdeck-outer-container {
-    margin-left: -7em;
-  }
-
-  #gotta-go-text {
-    margin-left: 5em;
-    margin-right: 4em;
-    margin-top: -3em;
   }
 
   #gotta-go-logo-container {
