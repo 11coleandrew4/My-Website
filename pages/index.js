@@ -54,7 +54,7 @@ export default class index extends Component {
 
         <footer className={styles.footer}>
           <div id="footer-text">
-            Created By Cole Berman{' '}
+            Created By Cole Berman <br /> Contact me at
             <span style={{ color: 'cornflowerblue' }}>
               <a href="mailto:11coleandrew4@gmail.com">
                 11coleandrew4@gmail.com
