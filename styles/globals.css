@@ -489,6 +489,27 @@ a {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .my-picture {
+    padding-left: 300px;
+  }
+  #linkedin-link {
+    margin-left: 350px;
+  }
+  #github-link {
+    margin-left: 350px;
+  }
+  #resume-link {
+    margin-left: 350px;
+  }
+  #gotta-go-logo-container {
+    width: 150%;
+  }
+  */ #swoopdeck-text {
+    padding-inline: 0rem;
+  }
+}
+
 #gottago-link {
   color: cornflowerblue;
 }

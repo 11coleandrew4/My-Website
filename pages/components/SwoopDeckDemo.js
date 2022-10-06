@@ -1,11 +1,11 @@
 function SwoopDeckDemo() {
   return (
     <video
-      autoplay="true"
       loop="true"
       muted="true"
-      controls="true"
       id="swoopdeck-demo"
+      controls="true"
+      poster="/swoopdeck-thumb.png"
     >
       <source src="/SwoopDeck-V2.mp4" type="video/mp4" />
     </video>
