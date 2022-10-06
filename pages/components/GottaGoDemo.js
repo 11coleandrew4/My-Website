@@ -1,6 +1,12 @@
 function GottaGoDemo() {
   return (
-    <video autoplay="true" loop="true" muted="true" id="gottago-demo">
+    <video
+      controls
+      poster="/gottago-thumb.png"
+      loop="true"
+      muted="true"
+      id="gottago-demo"
+    >
       <source src="/gotta-go-demo.mp4" type="video/mp4" />
     </video>
   );
