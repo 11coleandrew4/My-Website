@@ -53,9 +53,7 @@ export default class Projects extends Component {
 
           <Fade delay={300}>
             <div id="swoopdeck-container">
-              <div id="swoopdeck-logo-wrapper">
-                <SwoopDeckLogo />
-              </div>
+              <div id="swoopdeck-logo-wrapper">{/* <SwoopDeckLogo /> */}</div>
               <SwoopDeckDemo />
               <div id="swoopdeck-logo-container">
                 <div id="swoopdeck-text">
